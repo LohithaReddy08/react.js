@@ -1,0 +1,102 @@
+ReactJS:-
+*********
+- Javascript is having libraries and frameworks.
+libraries:- it is a collection of codes.
+            - less set of rules.
+            - reactjs , jquery etc.....
+              
+frameworks:- it is the collection of libraries
+            - more set of rules.
+            - angular, vuejs etc....
+
+
+important features of reactJs:-
+*****************************
+
+1. ReactJs is javascript library to build rich reusable user interface.
+2. ReactJs is faster because of "virtual DOM".
+3. React follows component based architecture.
+4. React follows unidirectional data flow.
+5. React follows both Client-side rendering and server-side rendering.
+
+- React was introduced in 2011 by facebook.
+- Jordan walke.
+- React is a free and platform-independent.
+- 2013 react made as a open-source.
+
+to install react app:-
+*********************
+- install node js
+- node -v
+-  npm install creatte-react-app --globally
+- npm init react-app myapp
+- npx create-react-app myapp
+- vite react
+
+
+- React is mainly used to create single page applications.
+
+
+what is virtual DOM:
+- Virtual DOM is a virtual representation of a UI which is kept in a memory later 
+ synced with Real DOM with the help of a library called "ReactDOM".
+- The updation of real dom with virtual DOM.
+- the entire process of updating the realDOM with the help of VDOM is called as "Reconcialtion".
+ 
+
+JSX:
+****
+- jsx stands for javascript and XML.
+- JSX is a javascript syntax extension used to create 
+
+
+
+
+rules of JS:
+************
+- every element irrespective of paired/unpaired tag both must be closed.
+ex: <h1></h1>
+
+components:
+***********
+- components are the files/modules which consist of js related logics which can be reuse.
+comonents are divided intlo two types:-
+1.class bases components(cbc)
+2.functional based components(fbc)
+
+1.class bases components(cbc)
+- cbc is similar to javascript es6 class.
+syntax:-
+
+class Person{
+construction(name , age){
+this.name=name;
+this.age=age;
+}
+}
+class Child extend Person{
+constructor(name , age , city){
+super(name , age);
+this.city=city;
+}
+}
+
+syntax:-
+class App extends React.Component{
+render
+
+2.functional based components(fbc)
+-fbc are similar to 
+
+
+component composition:-
+**********************
+- component composite is used to combine multiple component into single applications
+
+props:-
+******
+- props is nothing but a properties 
+
+
+
+
