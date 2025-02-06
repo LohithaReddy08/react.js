@@ -95,8 +95,17 @@ component composition:-
 
 props:-
 ******
-- props is nothing but a properties 
+- props is nothing but a properties similar to html attributes
+- props is an object.
+- props is an object used to transfer data from parent to child component
 
+props.childern:- it is a special type of prop used to pass the data / component as a prop to
+
+prop drilling:- it is used to pass the data down to child
+
+class component:-
+
+- class component is having the state 
 
 
 

@@ -37,28 +37,42 @@
 // export default App
 
 // !props
-import React, { Component } from 'react'
- import FBCPropEx from "./propsex/FBCPropEx";
+// import React, { Component } from 'react'
+//  import FBCPropEx from "./propsex/FBCPropEx";
 
- export default class App extends Component {
-  render() {
-   return (
-     <div>
-       {/* <CBCPropEx
-        username="Lohitha"
-        age={20}
-        hobby={["playing","eating"]}
-        address={{city:"ongole",area:"gandhinagar"}}
-        sendFun={function(){alert("hi i am Lohitha")}}
-        />  */}
+//  export default class App extends Component {
+//   render() {
+//    return (
+//      <div>
+//        <CBCPropEx
+//         username="Lohitha"
+//         age={20}
+//         hobby={["playing","eating"]}
+//         address={{city:"ongole",area:"gandhinagar"}}
+//         sendFun={function(){alert("hi i am Lohitha")}}
+//         />  
 
-        <FBCPropEx
-        username="saisree"
-        ismarried={true}
-        hobby={["playing","eating","sleeping"]}
-        />
+//         <FBCPropEx
+//         username="saisree"
+//         ismarried={true}
+//         hobby={["playing","eating","sleeping"]}
+//         />
         
-     </div>
-   )
-  }
+//      </div>
+//    )
+//   }
+// }
+import React from 'react'
+import CBCStateEx from './stateexample/CBCStateEx'
+import FBCStateEx from './stateexample/FBCStateEx'
+
+const App = () => {
+  return (
+    <div>
+      <CBCStateEx/>
+      <FBCStateEx/>
+    </div>
+  )
 }
+export default App
+
