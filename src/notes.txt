@@ -103,9 +103,8 @@ props.childern:- it is a special type of prop used to pass the data / component 
 
 prop drilling:- it is used to pass the data down to child
 
-class component:-
 
-- class component is having the state 
-
-
-
+functiona components:-
+- by default function component stateless because there is no state object.
+- in react v16.8 , they introduce a concept called as "Hooks"
+syntax:- Hooks is nothing but a function which implement 

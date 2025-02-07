@@ -62,17 +62,32 @@
 //    )
 //   }
 // }
+// import React from 'react'
+// import CBCStateEx from './stateexample/CBCStateEx'
+// import FBCStateEx from './stateexample/FBCStateEx'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <CBCStateEx/>
+//       <FBCStateEx/>
+//     </div>
+//   )
+// }
+// export default App
+
 import React from 'react'
-import CBCStateEx from './stateexample/CBCStateEx'
-import FBCStateEx from './stateexample/FBCStateEx'
+// import CBCStateEX from './StateExample/CBCStateEX'
+// import FBCStateEX from './StateExample/FBCStateEX'
+import FunctionalComponent from './components/FunctionalComponent'
 
 const App = () => {
   return (
     <div>
-      <CBCStateEx/>
-      <FBCStateEx/>
+      <FunctionalComponent clgName='MRU' area='maisammaguda'/>
+
+      {/* <FBCStateEX/> */}
     </div>
   )
 }
 export default App
-
