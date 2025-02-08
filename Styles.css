@@ -1,0 +1,26 @@
+/* .heading{
+    color: brown;
+    background-color: blueviolet;
+}
+.font-style{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.light {
+    color: white;
+    background-color: rgb(191, 147, 37);
+}
+.dark {
+    color: black;
+    background-color: rgb(154, 49, 66);
+}
+
+button {
+    font-size: large;
+    margin: 2%;
+    background-color: rgb(69, 30, 106);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}

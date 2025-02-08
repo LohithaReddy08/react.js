@@ -76,18 +76,48 @@
 // }
 // export default App
 
+// import React from 'react'
+// import CBCStateEX from './StateExample/CBCStateEX'
+// import FBCStateEX from './StateExample/FBCStateEX'
+// import FunctionalComponent from './components/FunctionalComponent'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <FunctionalComponent clgName='MRU' area='maisammaguda'/>
+
+//       {/* <FBCStateEX/> */}
+//     </div>
+//   )
+// }
+// export default App
+
 import React from 'react'
 // import CBCStateEX from './StateExample/CBCStateEX'
 // import FBCStateEX from './StateExample/FBCStateEX'
-import FunctionalComponent from './components/FunctionalComponent'
+// import FunctionalComponent from './components/FunctionalComponent'
+import CBCStateAssignment from './components/CBCStateAssignment'
 
 const App = () => {
   return (
     <div>
-      <FunctionalComponent clgName='MRU' area='maisammaguda'/>
+      {/* <FunctionalComponent clgName='MRU' area='maisammaguda'/> */}
 
       {/* <FBCStateEX/> */}
+      <CBCStateAssignment/>
     </div>
   )
 }
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
