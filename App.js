@@ -92,23 +92,53 @@
 // }
 // export default App
 
-import React from 'react'
+// import React from 'react'
 // import CBCStateEX from './StateExample/CBCStateEX'
 // import FBCStateEX from './StateExample/FBCStateEX'
 // import FunctionalComponent from './components/FunctionalComponent'
-import CBCStateAssignment from './components/CBCStateAssignment'
+// import CBCStateAssignment from './components/CBCStateAssignment'
 
-const App = () => {
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <FunctionalComponent clgName='MRU' area='maisammaguda'/> */}
+
+//       {/* <FBCStateEX/> */}
+//       <CBCStateAssignment/>
+//     </div>
+//   )
+// }
+// export default App
+
+// import logo from './logo.svg'
+// import './App.css';
+// import MyForm from './components/MyForm';
+
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//      <MyForm></MyForm>
+//      </div>
+//   );
+// }
+
+// export default App;
+
+// ! hooks example 
+import React from 'react'
+import UseEffectEx from './UseEffectEx'
+
+export const App = () => {
   return (
     <div>
-      {/* <FunctionalComponent clgName='MRU' area='maisammaguda'/> */}
-
-      {/* <FBCStateEX/> */}
-      <CBCStateAssignment/>
+      <UseEffectEx/>
     </div>
   )
 }
 export default App
+
 
 
 
