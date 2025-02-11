@@ -127,27 +127,17 @@
 // export default App;
 
 // ! hooks example 
-import React from 'react'
-import UseEffectEx from './UseEffectEx'
-
-export const App = () => {
-  return (
+ import React from 'react'
+//  import UseEffectEx from './UseEffectEx'
+import RefExamples from './hookexamples/RefExamples'
+ export const App = () => {
+   return (
     <div>
-      <UseEffectEx/>
-    </div>
-  )
-}
-export default App
-
-
-
-
-
-
-
-
-
-
-
+       {/* <UseEffectEx/> */}6
+       <RefExamples/>
+     </div>
+   )
+ }
+ export default App
 
 
